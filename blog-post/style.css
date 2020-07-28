@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   font-family: helvetica Neue, Arial;
   font-size: 18px;
@@ -31,4 +37,27 @@ h2 {
 
 .author {
   font-size: 22px;
+}
+
+.container {
+  width: 1140px;
+
+  margin: 20px auto 0 auto;
+}
+
+.blog-posts {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+
+}
+
+.other-posts {
+  width: 25%;
+  float: left;
+}
+
+.author-box {
+  border-top: 1px  solid #686868;
+  padding-top: 20px;
 }
